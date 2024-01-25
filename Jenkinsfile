@@ -1,6 +1,6 @@
-pipeline{
+pipeline {
     agent any 
-    stage {
+    stages {
         stage('print'){
             steps{
                 sh "python3 ./main_test.py"
