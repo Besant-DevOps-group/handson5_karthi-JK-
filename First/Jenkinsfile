@@ -1,0 +1,11 @@
+pipeline {
+    agent any
+    stages {
+        stage ('script-1'){
+            steps{
+                echo "hai all"
+            }
+        }
+    }
+
+}
