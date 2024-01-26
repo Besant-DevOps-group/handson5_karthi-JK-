@@ -7,5 +7,10 @@ pipeline {
             }
 
         }
+        stage('name'){
+            steps{
+                echo"karthi"
+            }
+        }
     }
 }
